@@ -1,0 +1,14 @@
+{
+  "name": "i-wish",
+  "version": "0.1.1",
+  "description": "Explore shared wishes and offers with the agent that already knows you.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "i-wish": {
+      "httpUrl": "https://function-bun-production-e327.up.railway.app/mcp",
+      "oauth": {
+        "scopes": ["iwish:read", "iwish:write", "iwish:messages", "iwish:free_arrangements", "offline_access"]
+      }
+    }
+  }
+}
