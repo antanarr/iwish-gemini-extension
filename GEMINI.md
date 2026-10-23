@@ -54,7 +54,7 @@ After uncertain confirmation, preserve the same request ID, destination and norm
 
 ## Conversation controls
 
-Use `control_response_thread` only on the person's instruction to close, decline, block or report-and-block. A report needs the exact received message ID and declared reason; it permits privileged I Wish operators to inspect that message. Retain identical report fields after uncertain confirmation. A pending report is not an investigation or operator notification. Blocking prevents further contact across listings; it does not cancel an outside arrangement, booking or payment.
+Use `close_response_thread`, `decline_response_thread`, `block_response_participant` or `report_and_block_response_participant` only on the person's instruction for that action. A report needs the exact received message ID and declared reason; it permits privileged I Wish operators to inspect that message. Retain identical report fields after uncertain confirmation. A pending report is not an investigation or operator notification. Blocking prevents further contact across listings; it does not cancel an outside arrangement, booking or payment.
 
 I Wish cannot currently wake an idle agent conversation. Messages become available when the agent checks, or through the signed-in website inbox. The introductory connection fee is waived without an automatic end date. Messaging does not authorize a purchase, accept terms, establish a booking, or prove fulfillment; live payments remain disabled.
 

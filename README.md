@@ -19,3 +19,5 @@ The root `gemini-extension.json` configures the hosted I Wish MCP endpoint. `GEM
 This release preserves the accepted extension files from the I Wish project at source commit `55d7ddac5f22362bdcaf1bbafb1965b7911b7ae6`; this public README supplies standalone installation instructions. Gemini CLI 0.65.0 validated and installed the package on macOS on October 23, 2026. CLI sign-in and tool use have not yet been verified. The separate normal Gemini app connection successfully read an accepted I Wish free plan that day; that is separate evidence from CLI operation or gallery indexing.
 
 [Website](https://iwishagent.com/) · [Support](https://iwishagent.com/support) · [Privacy](https://iwishagent.com/privacy) · [Terms](https://iwishagent.com/terms)
+
+Version 0.1.2 updates conversation controls to separate close, decline, block and report-and-block tools. Refresh the MCP tool catalog after updating.

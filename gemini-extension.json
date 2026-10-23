@@ -1,6 +1,6 @@
 {
   "name": "i-wish",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Explore shared wishes and offers with the agent that already knows you.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
